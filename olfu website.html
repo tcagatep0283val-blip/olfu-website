@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Portal Login</title>
+
+<style>
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:#efefef;
+    margin:0;
+}
+
+.header{
+    text-align:center;
+    padding:40px 20px 10px;
+}
+
+.header img{
+    width:80px;
+}
+
+.header h1{
+    color:#1a7f3c;
+    margin:10px 0 0;
+    letter-spacing:3px;
+}
+
+.header h2{
+    margin:5px 0;
+    font-weight:normal;
+}
+
+.login-container{
+    width:400px;
+    margin:30px auto;
+    background:white;
+    padding:25px;
+    border-radius:6px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+label{
+    font-size:14px;
+    display:block;
+    margin-top:10px;
+}
+
+input{
+    width:100%;
+    padding:10px;
+    margin-top:5px;
+    border:1px solid #ccc;
+    border-radius:4px;
+}
+
+.options{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:10px;
+    font-size:13px;
+}
+
+button{
+    margin-top:15px;
+    width:100%;
+    padding:10px;
+    background:#3a3f45;
+    color:white;
+    border:none;
+    border-radius:4px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#222;
+}
+
+.message{
+    margin-top:15px;
+    padding:10px;
+    background:#f5f5f5;
+    text-align:center;
+    font-size:14px;
+}
+
+.google-btn{
+    display:block;
+    width:200px;
+    margin:20px auto;
+    padding:12px;
+    text-align:center;
+    background:#db4437;
+    color:white;
+    border-radius:4px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="header">
+
+<h1>OUR LADY OF FATIMA</h1>
+<h2>UNIVERSITY</h2>
+<p>Academic Information Management System 🔒</p>
+
+</div>
+
+<div class="login-container">
+
+<label>Student Number</label>
+<input type="text" placeholder="Your Student Number">
+
+<label>Password</label>
+<input type="password" placeholder="Your Password">
+
+<div class="options">
+<label><input type="checkbox"> Remember me</label>
+<a href="#">Forgot your password?</a>
+</div>
+
+<button>Sign In</button>
+
+<div class="message">
+Please enter your username and password
+</div>
+
+</div>
+
+<a class="google-btn" href="#">Sign in with Google</a>
+
+</body>
+</html>
